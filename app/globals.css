@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+
+  --background: #EAE0CF;   
+  --foreground: #B7BDF7;   
+
+  --primary: #1F4E5F;      
+  --secondary: #FFFFFF;   
+  --accent: #E07A5F;      
+  --border: #D6D3CE;     
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  color: var(--primary);
+  font-family: var(--font-heading);
+}
+
+button {
+  background: var(--accent);
+  color: white;
+}
+
+.card {
+  background: var(--secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
